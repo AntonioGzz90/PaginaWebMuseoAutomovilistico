@@ -2273,7 +2273,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  /*color-adjust: exact;*/
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -3774,7 +3774,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position:relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -10908,7 +10908,7 @@ textarea.form-control-lg {
   }
 }
 
-.cover{
+.coverIndex{
   height: 400px;
   background-image:url("../images/autosClasicos.webp");
   color: white;
@@ -10916,11 +10916,14 @@ textarea.form-control-lg {
   background-position: center;
   background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-item{
   padding-left: 1cm;
   
 }
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */

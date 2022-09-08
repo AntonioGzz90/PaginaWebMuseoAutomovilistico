@@ -1,0 +1,65 @@
+.coverPlymouth{
+    height: 600px;
+    background-image:url("../images/fondoPlymouth.jpg");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coverCorvette{
+    height: 600px;
+    background-image:url("../images/fondoCorvette.jpg");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coverMCLaren{
+    height: 600px;
+    background-image:url("../images/fondoMCLaren.jpg");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coverChevelle{
+    height: 600px;
+    background-image:url("../images/coverChevelle2.jpg");
+    color: white;
+    background-size:cover ;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coverLamborghini{
+    height: 600px;
+    background-image:url("../images/fondoLamborghini.webp");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coverEnzoFerrari{
+    height: 600px;
+    background-image:url("../images/fondoFerrari.jpg");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
