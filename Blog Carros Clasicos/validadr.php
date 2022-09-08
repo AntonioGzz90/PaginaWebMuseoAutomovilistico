@@ -1,14 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <title>Document</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <?php
+        $name = $_POST["name"];
+        $car = $_POST["car"];
+
+        $contenido = "
+        Nombre: $name
+        Carro: $car";
+
+        $archivo = fopen("recibido/$name.txt","w");
+        fwrite($archivo,$contenido);
+
+
+        ?>
+
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+
+    </head>
+
+    <body>
+    <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <a href="index.html"> <img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
@@ -31,24 +44,14 @@
         <button type="button" class="btn btn-outline-danger">Colabora con nosotros</button>
       </a>
     </div>
-  </nav>
-
-  
-
-  <div class="coverIndex d-flex flex-column mb-3 justify-content-center align-items-center flex column">
-    <h1 > Museo </h1>
-    <p> Los mejores carros, en el mejor museo </p>
-  </div>
-
-
-  <!--<button class="btn btn-primary" onclick="soundCorvette()">
-    <img class="Musi-Off" src="images/sinSonido.png" style="height: 50px ;">
-    <audio id="Audio-Corvette"></audio>
-  </button>-->
-  
-
-    <script src="js/bootstrap.js"></script>
-    <!--<script src="js/jsCorvette.js"></script>-->
+  </nav>    
     
-</body>
+  <h1 class="display-1" style="text-align: center;">Formulado Enviado</h1>
+    
+    <script src="js/bootstrap.js"></script>
+    </body>
+
+    
+
+
 </html>

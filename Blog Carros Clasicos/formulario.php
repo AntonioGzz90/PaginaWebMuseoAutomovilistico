@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
+<nav class="navbar navbar-expand-lg"  style="background-color: #353a37;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <a href="index.html"> <img src="images/logoChido.png" alt="Logo Museo" width="100" height="100"></a>
@@ -32,23 +32,24 @@
       </a>
     </div>
   </nav>
-
-  
-
-  <div class="coverIndex d-flex flex-column mb-3 justify-content-center align-items-center flex column">
-    <h1 > Museo </h1>
-    <p> Los mejores carros, en el mejor museo </p>
-  </div>
-
-
-  <!--<button class="btn btn-primary" onclick="soundCorvette()">
-    <img class="Musi-Off" src="images/sinSonido.png" style="height: 50px ;">
-    <audio id="Audio-Corvette"></audio>
-  </button>-->
+  <h1 class="display-1" style="text-align: center;">Ayudadanos</h1>
+  <br> <p style="text-align: center;"> Ingresa un auto que te gustaria ver en este museo, no importa cual sea, nos importa tu opinión.</p>
+  <main class="my-5">
+    <form action="validadr.php" method="post">  
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" name="name" >
+      </div>
+      <div class="mb-3">
+        <label for="car" class="form-label">Carro que nos recomienda</label>
+        <textarea class="form-control" name="car" rows="3"></textarea>
+      </div>
+      <button> Enviar </button>
+    </form>
+  </main>
   
 
     <script src="js/bootstrap.js"></script>
-    <!--<script src="js/jsCorvette.js"></script>-->
     
 </body>
 </html>
