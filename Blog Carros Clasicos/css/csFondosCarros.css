@@ -1,5 +1,5 @@
 .coverPlymouth{
-    height: 600px;
+    height: 400px;
     background-image:url("../images/fondoPlymouth.jpg");
     color:white;
     background-size: cover;
@@ -10,7 +10,7 @@
   }
 
 .coverCorvette{
-    height: 600px;
+    height: 400px;
     background-image:url("../images/fondoCorvette.jpg");
     color:white;
     background-size: cover;
@@ -21,7 +21,7 @@
   }
 
 .coverMCLaren{
-    height: 600px;
+    height: 400px;
     background-image:url("../images/fondoMCLaren.jpg");
     color:white;
     background-size: cover;
@@ -32,7 +32,7 @@
   }
 
 .coverChevelle{
-    height: 600px;
+    height: 400px;
     background-image:url("../images/coverChevelle2.jpg");
     color: white;
     background-size:cover ;
@@ -43,7 +43,7 @@
   }
 
 .coverLamborghini{
-    height: 600px;
+    height: 400px;
     background-image:url("../images/fondoLamborghini.webp");
     color:white;
     background-size: cover;
@@ -53,13 +53,46 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-.coverEnzoFerrari {
-    height: 600px;
-    background-image: url("https://autodinamico.mx/wp-content/uploads/2021/08/Enzo-AD1.jpg");
-    color: white;
+.coverEnzoFerrari{
+    height: 400px;
+    background-image:url("../images/fondoFerrari.jpg");
+    color:white;
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: darken;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.coverTesla{
+  height: 400px;
+    background-image:url("../images/fondoTesla.jpg");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.coverChevrolet{
+  height: 400px;
+    background-image:url("../images/fondoChevrolet.webp");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.coverRenault{
+  height: 400px;
+    background-image:url("../images/fondoRenault.webp");
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

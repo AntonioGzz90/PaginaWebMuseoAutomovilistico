@@ -10925,5 +10925,31 @@ textarea.form-control-lg {
 }
 
 
+/*.carousel-item{
+  max-height: 40rem;
+}*/
 
+/*.carousel-inner{
+  background-color: #000;
+}*/
+
+/*.carousel-item{
+  background-color: #000;
+  
+}*/
+
+.carousel-caption{
+  background-color: #000;
+  opacity: 70%;
+  color: white;
+}
+
+.slide img{
+  height: 75vh;
+  
+}
+
+.parrafo{
+  color: white;
+}
 /*# sourceMappingURL=bootstrap.css.map */
