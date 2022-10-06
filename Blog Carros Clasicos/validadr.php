@@ -46,7 +46,7 @@
     </div>
   </nav>    
     
-  <h1 class="display-1" style="text-align: center;">Formulado Enviado</h1>
+  <h1 class="display-1" style="text-align: center;">Formulado Enviado con Exito</h1>
     
     <script src="js/bootstrap.js"></script>
     </body>

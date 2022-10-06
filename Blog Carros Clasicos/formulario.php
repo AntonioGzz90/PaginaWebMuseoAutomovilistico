@@ -44,12 +44,14 @@
         <label for="car" class="form-label">Carro que nos recomienda</label>
         <textarea class="form-control" name="car" rows="3"></textarea>
       </div>
-      <button> Enviar </button>
+      <button onclick="alerta()"> Enviar </button>
+      
     </form>
   </main>
   
 
     <script src="js/bootstrap.js"></script>
+    <script src="js/jsFormulario.js"></script>
     
 </body>
 </html>
